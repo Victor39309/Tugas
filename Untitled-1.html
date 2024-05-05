@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 20px auto 10px auto; /* Mengurangi jarak di bagian bawah profil foto */
+        }
+        .profile-picture img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        body {
+            background-image: url('background-image.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        #about {
+            margin-top: 10px; /* Mengurangi jarak di bagian atas "About Me" */
+            margin-bottom: 20px; /* Mengurangi jarak di bagian bawah "About Me" */
+        }
+        #skills {
+            margin-top: 20px; /* Mengurangi jarak di bagian atas "Skills" */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="profile-picture">
+        <img src="profile-picture.jpg" alt="Profile Picture">
+    </div>
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Halo, saya Victor, seorang mahasiswa yang bersemangat belajar web development. Saya mengejar pemahaman mendalam tentang bahasa pemrograman dan desain web untuk menciptakan pengalaman online yang menakjubkan. Saya percaya bahwa kolaborasi dan pembelajaran kontinu adalah kunci kesuksesan saya di bidang ini.</p>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="column">
+                    <div class="skill">
+                        <h3>Programming Languages</h3>
+                        <ul>
+                            <li>JavaScript</li>
+                            <li>Python</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                    </div>
+                    <div class="skill">
+                        <h3>Databases</h3>
+                        <ul>
+                            <li>MySQL</li>
+                            <li>MongoDB</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="skill">
+                        <h3>Frameworks</h3>
+                        <ul>
+                            <li>React</li>
+                            <li>Express.js</li>
+                        </ul>
+                    </div>
+                    <div class="skill">
+                        <h3>Responsive Development</h3>
+                        <p>Membuat situs web dan aplikasi dengan fokus pada desain responsif.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <p>Email: example@example.com</p>
+                <p>Phone: 123-456-7890</p>
+                <p>Address: 123 Example St.</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
